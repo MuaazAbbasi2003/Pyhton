@@ -20,7 +20,7 @@
 
 import pandas
 
-data= pandas.read_csv("./weather_data.csv")
+data= pandas.read_csv("weather_data.csv")
 temp_list= data["temp"].max()
 
 print(temp_list)
