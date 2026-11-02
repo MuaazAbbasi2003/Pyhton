@@ -21,5 +21,6 @@
 import pandas
 
 data= pandas.read_csv("./weather_data.csv")
-print(data["temp"])
+temp_list= data["temp"].max()
 
+print(temp_list)
