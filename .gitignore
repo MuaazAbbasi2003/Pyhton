@@ -1,4 +1,22 @@
-python/Quotes-Gnerator/.env
-venv/
+# 1. Python environment and cache
 __pycache__/
-logs/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# 2. Environment variable files (most likely to contain API keys/passwords)
+.env
+.env.*
+!.env.example
+
+# 3. Database and credentials
+*.sqlite3
+*.db
+credentials.json
+secrets.json
+
+# 4. Key and certificate files
+*.pem
+*.key
+*.p12

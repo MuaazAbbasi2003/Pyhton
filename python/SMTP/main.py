@@ -4,13 +4,6 @@ import random
 import os
 
 
-
-MY_EMAIL = "muaaztest114@gmail.com"
-PASSWORD = "gxhy vjhh vebl tvtw"  # Gmail app password (revoke after testing!)
-TO_EMAIL = "muaaztest114@yahoo.com"
-QUOTES_FILE = "./quotes.txt"
-
-
 with open(QUOTES_FILE) as file:
     contents = [line.strip() for line in file if line.strip()]
 if not contents:
