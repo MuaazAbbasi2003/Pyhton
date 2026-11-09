@@ -1,1 +1,7 @@
 2026-11-09 16:04:53,107 | INFO | Quote email sent successfully to muaaztest114@yahoo.com
+2026-11-09 16:40:46,536 | ERROR | Application failed
+Traceback (most recent call last):
+  File "D:\Python projects new\python\OOP\python\Quotes-Gnerator\app\main.py", line 14, in <module>
+    raise ValueError("RECIPIENT_EMAIL is missing from .env")
+ValueError: RECIPIENT_EMAIL is missing from .env
+2026-11-09 16:44:59,055 | INFO | Quote email sent successfully to muaaztest114@yahoo.com
