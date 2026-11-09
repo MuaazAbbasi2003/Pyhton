@@ -3,6 +3,8 @@ import ssl
 import random
 import os
 
+
+
 MY_EMAIL = "muaaztest114@gmail.com"
 PASSWORD = "gxhy vjhh vebl tvtw"  # Gmail app password (revoke after testing!)
 TO_EMAIL = "muaaztest114@yahoo.com"
