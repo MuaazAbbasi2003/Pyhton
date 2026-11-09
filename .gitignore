@@ -1,0 +1,4 @@
+python/Quotes-Gnerator/.env
+venv/
+__pycache__/
+logs/
